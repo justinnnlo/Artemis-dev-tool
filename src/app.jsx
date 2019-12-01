@@ -50,7 +50,7 @@ const App = props => {
 
   useEffect(() => {
     chrome.devtools.network.onRequestFinished.addListener((httpReq) => {
-      bglog('this is the second useEffect http request');
+      console.log('this is the second useEffect http request');
       // httpReq.getContent((res) => {
         // bglog(res);
       // })
