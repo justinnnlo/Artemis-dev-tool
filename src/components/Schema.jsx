@@ -23,10 +23,6 @@ const Schema = props => {
   }
 
   return (
-    <ReactCSSTransitionGroup
-      transitionName="example"
-      transitionEnterTimeout={500}
-      transitionLeaveTimeout={300}>
       <div id="schema-container">
         <div id="schema-hThree">
           <h3>SCHEMA</h3>
@@ -44,7 +40,6 @@ const Schema = props => {
           />
         </div>
       </div>
-    </ReactCSSTransitionGroup>
   );
 };
 
