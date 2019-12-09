@@ -4,7 +4,7 @@ import Query from "../components/Query.jsx";
 import GraphQLResponse from "../components/GraphQLResponse.jsx";
 import Schema from "../components/Schema.jsx";
 import ApolloGraphQLCache from "../components/ApolloGraphQLCache.jsx";
-import TreeVisualizer from "../components/GraphQLTreeVisualizer.jsx";
+import TreeVisualizer from "../components/GrapQLTreeVisualizer.jsx";
 
 const ObserverContainers = props => {
 

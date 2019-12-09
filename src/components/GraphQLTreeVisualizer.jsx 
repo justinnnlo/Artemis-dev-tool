@@ -14,7 +14,7 @@ const TreeVisualizer = () => {
     }
   }
 
-  console.log('this is result in Tree component', result);
+  // console.log('this is result in Tree component', result);
   
   return (
     <div>hi i am a tree.</div>
