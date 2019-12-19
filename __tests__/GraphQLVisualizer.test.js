@@ -6,10 +6,10 @@ import { configure } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 configure({ adapter: new Adapter() });
 
-describe ('<GraphQLVisualizer/>', () => {
+describe('<GraphQLVisualizer/>', () => {
   const props = {
     results: ["test-data1", "test-data2"],
-  }
+  };
   it('renders the GraphQLVisualizer Component without crashing', () => {
     // const visualizer = render(<GraphQLVisualizer {...props}/>);
     // expect(isJSON(props.results[0])).toBe(true);
@@ -18,12 +18,12 @@ describe ('<GraphQLVisualizer/>', () => {
     const parseJson = () => {
       const json = JSON.stringify(test);
       JSON.parse(json);
-  };
-  expect(parseJson).not.toThrow();
+    };
+    expect(parseJson).not.toThrow();
   });
 
   // it('renders the response h3 tag', () => {
-  //   const cache = shallow(<GraphQLResponse />);
-  //   expect(cache.find('graphql-heading')).toEqual('div');
+  //   const visual = shallow(<GraphQLVisualizer />);
+  //   expect(visual.find('graphql-heading')).toEqual('div');
   // })
 });
